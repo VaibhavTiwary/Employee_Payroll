@@ -1,17 +1,27 @@
-Welcome to the Employee Payroll System project in Java! This repository contains a comprehensive example of building a terminal-based Employee Payroll System using Object-Oriented Programming (OOP) principles. Through this project, you'll learn how to design and implement abstract classes, concrete subclasses, and explore inheritance, encapsulation, abstraction, and polymorphism in Java.
+Overview:-
+The Employee Payroll System is a Java application designed to manage and calculate employee salaries. This project demonstrates the use of Object-Oriented Programming (OOP) principles.
 
-🔍 Project Highlights:
+Features:-
+Abstract 'Employee' Class: Base class with common attributes and an abstract method calculateSalary.
+Full-Time and Part-Time Employees: Subclasses implementing 'calculateSalary' for different types of employees.
+Payroll System Management: Add, remove, and display employee details.
+Dynamic Polymorphism: Method overriding for salary calculation.
+Simple User Interface: Terminal-based interface for easy interaction.
 
-Abstract Employee class serving as the foundation for different employee types.
-Concrete subclasses FullTimeEmployee and PartTimeEmployee with salary calculation.
-A user-friendly terminal interface for easy interaction and data management.
-Demonstrates core OOP concepts with practical coding examples.
-Complete source code and step-by-step guide for better understanding.
-🚀 Ready to dive in and enhance your Java skills? Whether you're a beginner eager to learn or an experienced developer brushing up on your OOP knowledge, this project is designed to provide valuable insights and hands-on experience. Clone this repository, explore the code, and take your Java programming skills to the next level!
+Classes:-
+Employee: Abstract class with 'name', 'id', and an abstract 'calculateSalary' method.
+FullTimeEmployee: Subclass with a fixed monthly salary.
+PartTimeEmployee: Subclass with hourly rate and hours worked.
+PayrollSystem: Manages a list of employees.
 
-📁 Repository Contents:
+Prerequisites:-
+Java Development Kit (JDK) installed
+Basic knowledge of Java and OOP concepts
 
-Source code for the Employee Payroll System project.
-README with project overview, setup instructions, and usage details.
-🌟 Join the learning journey, contribute, and share your thoughts. Let's master OOP concepts and Java programming together!
+Extending the Project:-
+New Employee Types: Easily add new types of employees by extending the Employee class and implementing calculateSalary.
+Enhanced Features: Integrate more complex payroll features like bonuses, tax calculations, or integration with databases.
+
+Installation:-
+Clone the repository :- git clone https://github.com/VaibhavTiwary/Employee_Payroll
 
